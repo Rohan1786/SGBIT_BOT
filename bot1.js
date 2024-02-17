@@ -112,7 +112,7 @@ if(words.includes("who is video editor ")){
 button.addEventListener("click", () => {
     recognition.start();
     const img = document.createElement("img");
-    document.getElementsByClassName("myimg")[0].src = "robo11.gif" ,inmerWidth=100,innerHeight=100;
+    document.getElementsByClassName("myimg")[0].src = "../project image/SGBIT_BOT1.gif" ,inmerWidth=100,innerHeight=100;
 // img.src = "https://picsum.photos/200/301";
 // img.src = "https://cdn.dribbble.com/users/42048/screenshots/8350927/media/23289b76ac7353ad4f0d0619ce6e9f2d.gif";
 document.body.appendChild(img);
